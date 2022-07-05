@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-// const PORT = process.env.PORT || 9000
+const PORT = process.env.PORT || 9000
 // __dirname=path.resolve()
 // if(pro)
 
